@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{00828A53-0BB0-41DA-9D33-2A6BAF905D27}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "解决方案项", "解决方案项", "{FB485D52-9471-47E1-9FFF-65B44067BEF9}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MMDK-o1", "Old\MMDK-o1.csproj", "{E3CDD6B2-FB37-4D64-8899-2CCE92478A9E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KuguaAPI", "KuguaAPI\KuguaAPI.csproj", "{07F1786A-CC02-4D24-B95D-B5B218FEA969}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E3CDD6B2-FB37-4D64-8899-2CCE92478A9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3CDD6B2-FB37-4D64-8899-2CCE92478A9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3CDD6B2-FB37-4D64-8899-2CCE92478A9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3CDD6B2-FB37-4D64-8899-2CCE92478A9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07F1786A-CC02-4D24-B95D-B5B218FEA969}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07F1786A-CC02-4D24-B95D-B5B218FEA969}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07F1786A-CC02-4D24-B95D-B5B218FEA969}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07F1786A-CC02-4D24-B95D-B5B218FEA969}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F7FD6A7B-7D46-4A10-B0E6-40AB026DE6E1}
+	EndGlobalSection
+EndGlobal

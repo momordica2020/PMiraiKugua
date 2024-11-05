@@ -1,7 +1,7 @@
 version: '3'
 services:
   blivechat:
-    image: murchinroom/blivechat:v1.6.1-muvtb.5
+    image: xfgryujk/blivechat:latest
     build: ./blivechat/
     ports:
       - "51060:12450"
@@ -10,13 +10,11 @@ services:
       - 8.8.8.8
     restart: unless-stopped
   emotext:
-    image: murchinroom/emotext:v0.0.2
     build: ./emotext/
     ports:
       - "51061:9003"
     restart: unless-stopped
   chatgpt_chatbot:
-    image: murchinroom/chatgpt_chatbot:v0.0.4
     build: ./chatgpt_chatbot/
     ports:
       - "51052:50052"
@@ -37,13 +35,11 @@ services:
       - API_URL=https://api.openai.com/v1/chat/completions
     restart: unless-stopped
   musharing_chatbot:
-    image: murchinroom/musharing_chatbot:v0.0.3
     build: ./musharing_chatbot/
     ports:
       - "51051:50051"
     restart: unless-stopped
   live2ddriver:
-    image: murchinroom/live2ddriver:v0.1.0
     build: ./live2ddriver/
     ports:
       - "51071:9001"
@@ -55,13 +51,11 @@ services:
       - emotext
     restart: unless-stopped
   live2dview:
-    image: murchinroom/live2dview:v0.1.0
     build: ./live2dview/
     ports:
       - "51070:80"
     restart: unless-stopped
   externalsayer:
-    image: murchinroom/externalsayer:v0.0.4
     build: ./externalsayer/
     ports:
       - "51065:50010"
@@ -69,13 +63,11 @@ services:
       - ./configs/externalsayer:/app/config
     restart: unless-stopped
   audioview:
-    image: murchinroom/audioview:v0.1.0
     build: ./audioview/
     ports:
       - "51082:80"
     restart: unless-stopped
   muvtuberdriver:
-    image: murchinroom/muvtuberdriver:v0.1.0
     build: ./muvtuberdriver/
     ports:
       - "51080:51080"
