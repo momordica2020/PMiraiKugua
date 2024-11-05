@@ -1,3 +1,12 @@
+# Mirai Kugua With Python  苦 音 未 来 蟒 蛇 版
+
+尝试迁移[苦音未来](https://github.com/momordica2020/MIraiKUgua)到python环境，并将其扩写为更完整、跨平台的赛博实体。
+
+
+以下是原readme
+--- 
+
+
 # muvtuber
 
 [README in English](README-EN.md)
