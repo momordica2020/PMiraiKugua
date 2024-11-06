@@ -12,6 +12,12 @@ authors = [
 ]
 dependencies = [
     "graia-ariadne<1.0.0,>=0.11.7",
+    "graia-saya>=0.0.19",
+    "saucenao-api>=2.3.1",
+    "pathlib>=1.0.1",
+    "arclet-alconna-graia>=0.14.0",
+    "arclet-alconna-ariadne>=0.14.0",
+    "graiax-shortcut>=0.3.0",
 ]
 requires-python = "<4.0,>=3.12"
 readme = "README.md"

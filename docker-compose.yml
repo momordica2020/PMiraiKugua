@@ -2,7 +2,6 @@ version: '3'
 services:
   blivechat:
     image: xfgryujk/blivechat:latest
-    build: ./blivechat/
     ports:
       - "51060:12450"
     dns:

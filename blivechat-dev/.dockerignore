@@ -1,0 +1,31 @@
+# compiled output
+**/__pycache__/
+**/build/
+**/dist/
+
+# dependencies
+frontend/package-lock.json
+**/node_modules/
+
+# IDEs and editors
+**/.idea/
+
+# misc
+**/.git*
+**/*.spec
+screenshots/
+
+plugins/
+
+# runtime data
+data/*
+!data/config.example.ini
+!data/loader.html
+!data/custom_public/
+data/custom_public/*
+!data/custom_public/README.txt
+!data/emoticons/
+data/emoticons/*
+!data/plugins/
+data/plugins/*
+log/*
